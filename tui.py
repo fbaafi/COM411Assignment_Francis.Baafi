@@ -19,7 +19,7 @@ def welcome():
 
     :return: Does not return anything.
     """
-    # TODO: Your code here
+    # TODO:  Hello! Welcome to the ------------ Hotel Reviews ------------
     pass
 
 
@@ -34,7 +34,7 @@ def error(msg):
     :param msg: a string containing an error message
     :return: does not return anything
     """
-    # TODO: Your code here
+    # TODO: This is an 'Error! {error_msg}.'
     pass # can remove
 
 
@@ -77,8 +77,10 @@ def main_menu():
 
     :return: an integer for a valid selection
     """
-    # TODO: Your code here
-    pass # can remove
+    # TODO:
+    def main_menu():'[1] Process Data', '[2] Visualise Data', '[3] Export Data'and '[4] Exit'
+    '1 for Process Data', '2 for Visualise Data', '3 for Export Data'and '4 for Exit'
+    pass #
 
 
 def sub_menu(variant=0):
@@ -109,7 +111,16 @@ def sub_menu(variant=0):
 
     :return: 0 if invalid selection otherwise an integer for a valid selection
     """
-    # TODO: Your code here
+    # TODO:
+def sub_menu(varient=0):
+    varient=1
+    '[1] Reviews for Hotel', '[2] Reviews for Dates', '[3] Reviews for Nationality', '[4] Reviews Summary'
+    varient=2
+    '[1] Positive/Negative Pie Chart', '[2] Reviews Per Nationality Chart', '[3] Animated Summary'
+    varient=3
+    '[1] All Reviews', '[2] Reviews for Specific Hotel'
+
+
     pass # can remove
 
 
@@ -126,7 +137,11 @@ def total_reviews(num_reviews):
     :param num_reviews: the total number of reviews in the data set
     :return: Does not return anything
     """
-    # TODO: Your code here
+    # TODO:
+    def total_reviews(num_reviews):
+        'There are {7219} reviews in this data set'
+
+        'where {7219} is the value of the parameter passed to this function'
     pass # can remove
 
 
@@ -139,8 +154,12 @@ def hotel_name():
 
     :return: the name of a hotel
     """
-    # TODO: Your code here
-    pass # can remove
+    # TODO:
+def hotel_name():
+    'Please enter the Hotel Name'
+
+    return 'the name of the Hotel'
+    pass
 
 
 def review_dates():
@@ -157,8 +176,14 @@ def review_dates():
 
     :return: a list of review dates
     """
-    # TODO: Your code here
-    pass # can remove
+    # TODO:
+def reviews_dates():
+    'Please enter some review dates'
+    'in the form of mm/dd/yyyy'
+    'where dd is two digit day, mm is two digit month and yyyy is a four digit year'
+
+    return 'the list of review dates'
+    pass #
 
 
 def display_review(review, cols=None):
